@@ -1,0 +1,31 @@
+{
+    "Comment": "CREATE/DELETE/UPSERT a record ",
+    "Changes": [
+        {
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+                "Name": "local.brettmostert.com",
+                "Type": "A",
+                "TTL": 0,
+                "ResourceRecords": [
+                    {
+                        "Value": "155.93.250.224"
+                    }
+                ]
+            }
+        },
+        {
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+                "Name": "test.brettmostert.com",
+                "Type": "A",
+                "TTL": 0,
+                "ResourceRecords": [
+                    {
+                        "Value": "155.93.250.224"
+                    }
+                ]
+            }
+        }
+    ]
+}
